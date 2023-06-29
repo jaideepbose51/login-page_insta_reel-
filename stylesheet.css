@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Geologica:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap");
+
+body {
+  margin: 0px;
+}
+
+.mainjs {
+  width: 100%;
+  height: 100vh;
+  flex-direction: row-reverse;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.welcome {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  text-align: center;
+  height: 100%;
+  width: 50%;
+  background-color: rgb(239, 60, 83);
+}
+
+.welcome_back {
+  font-family: "Geologica", sans-serif;
+  margin: 5vh;
+  padding: 2vh;
+  font-size: 10vh;
+  color: #ffdddd;
+}
+
+.text {
+  font-family: "Roboto", sans-serif;
+  color: rgb(255, 253, 254);
+  padding: 2vh;
+  margin-bottom: 3vh;
+}
+
+/* .button {
+  background-color: #4caf50;
+  border-radius: 100%;
+  height: 5vh;
+  width: 5vh;
+  border: none;
+  color: white;
+  cursor: pointer;
+} */
+
+.signin {
+  background-color: rgb(239, 60, 83);
+  width: 50vh;
+  height: 8vh;
+  padding: 2vh;
+  color: rgb(255, 253, 254);
+  border-radius: 30px;
+  margin-bottom: 8vh;
+  border-style: dashed solid solid;
+  cursor: pointer;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  font-size: medium;
+}
+
+.passward {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: rgb(255, 253, 254);
+}
+
+.create {
+  font-family: "Geologica", sans-serif;
+  margin: 5vh;
+  padding: 2vh;
+  font-size: 10vh;
+  color: rgb(239, 60, 83);
+}
+
+.icons {
+  width: 368.148px;
+  height: 41.795px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10.671px;
+  border: 0.889px solid #000;
+  border-color: black;
+}
+
+.google {
+  color: #000;
+  font-size: 3vh;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.maindata {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 10%;
+}
+
+.placeholder {
+  width: 50vh;
+  height: 5vh;
+  border-radius: 30px;
+  margin-bottom: 8vh;
+  border-style: dashed solid solid;
+}
+
+/* .button2 {
+  width: 50vh;
+  height: 5vh; 
+  display: flex;
+  background-color: red;
+  border-radius: 30px;
+  margin-bottom: 8vh;
+  border-style: dotted dashed solid;
+} */
+
+.OTP {
+  width: 50vh;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  background-color: rgb(255, 253, 254);
+  border-radius: 30px;
+  margin-bottom: 8vh;
+  border-style: dashed solid solid;
+  cursor: pointer;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+::placeholder {
+  text-align: center;
+}
